@@ -20,7 +20,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Doreta Maliqi's personal website"
     keywords = "blog,developer,personal"
     info = "Full Stack DevOps "
-    avatarurl = "HA005\\doreta.png"
+    avatarurl = "doreta.png"
     footercontent = "Homework from TechUp project."
 
     dateformat = "January 2, 2006"
