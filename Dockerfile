@@ -3,23 +3,16 @@
 FROM ubuntu:18.04 as HUGOSETUP
 
 ARG HUGO_VERSION=0.59.1
-
 ENV DOCUMENT_DIR=/hugo-faqja
 
 RUN apt-get update && apt-get upgrade -y \
-
       && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-
            ruby ruby-dev make cmake build-essential bison flex \
-
       && apt-get clean \
-
       && rm -rf /var/lib/apt/lists/* \
-
       && rm -rf /tmp/*
 
 RUN gem install --no-document asciidoctor asciidoctor-revealjs \
-
          rouge asciidoctor-confluence asciidoctor-diagram coderay pygments.rb
 
 # Instalimi i Hugo
