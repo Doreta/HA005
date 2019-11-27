@@ -19,9 +19,9 @@ disqusShortname = "yourdiscussshortname"
     author = "Doreta Maliqi"
     description = "Doreta Maliqi's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
-    avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    info = "Full Stack DevOps "
+    avatarurl = "HA005\\doreta.png"
+    footercontent = "Homework from TechUp project."
 
     dateformat = "January 2, 2006"
 
@@ -38,7 +38,7 @@ disqusShortname = "yourdiscussshortname"
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorscheme = "light"
+    colorscheme = "dark"
 
     # Series see also post count
     maxSeeAlsoItems = 5
@@ -109,20 +109,20 @@ disqusShortname = "yourdiscussshortname"
 
 
     [languages.pt-br]
-        languagename = "Português"
-        title = "João Ninguém"
+        languagename = "Shqip"
+        title = "Doreta Maliqi"
 
         [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
+            author = "Doreta Maliqi"
+            info = "Full Stack DevOps"
+            description = "Webfaqja personale e Doretes"
+            keywords = "blog,etj"
+            footercontent = "Detyre nga projekti TechUp "
 
         [languages.pt-br.menu]
 
             [[languages.pt-br.menu.main]]
-            name = "Sobre"
+            name = "Per mua"
             weight = 1
             url = "about/"
 
@@ -132,11 +132,11 @@ disqusShortname = "yourdiscussshortname"
             url = "posts/"
 
             [[languages.pt-br.menu.main]]
-            name = "Projetos"
+            name = "Projektet"
             weight = 3
             url = "projects/"
 
             [[languages.pt-br.menu.main]]
-            name = "Contato"
+            name = "Kontakti"
             weight = 5
             url = "contact/"
